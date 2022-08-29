@@ -7,12 +7,28 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color:aliceblue;
   font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction:column-reverse;
+  align-items:center;
+  justify-content:center;
   height: 100vh;
   overflow: hidden;
+}
+
+.magic {
+  background-color:lightgoldenrodyellow;
+  color:coral;
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 12px 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+  z-index: 100;
 }
