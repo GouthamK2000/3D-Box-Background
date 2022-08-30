@@ -9,7 +9,7 @@
 body {
   background-color:aliceblue;
   font-family: 'Roboto', sans-serif;
-  display: flex;
+  display:flex;
   flex-direction:column-reverse;
   align-items:center;
   justify-content:center;
@@ -31,4 +31,8 @@ body {
   letter-spacing: 1px;
   box-shadow: 0 3px rgba(249, 202, 36, 0.5);
   z-index: 100;
+}
+
+.magic:focus {
+  outline: none;
 }
