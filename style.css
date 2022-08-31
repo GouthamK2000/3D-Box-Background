@@ -36,3 +36,8 @@ body {
 .magic:focus {
   outline: none;
 }
+
+.magic:active {
+  box-shadow: None;
+  transform: translateY(2px);
+}
